@@ -6,8 +6,9 @@ services:
     build: 
       context: node
     container_name: app
-    entrypoint: dockerize -wait tcp://db:3306 -timeout 50s
-    command: bash -c 'npm install && node index.js'    
+    entrypoint: dockerize -wait tcp://db:3306 -timeout 120s
+    command: bash -c 'npm install && node index.js'  
+    restart: always
     networks:
       - node-network
     volumes:
