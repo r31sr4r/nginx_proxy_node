@@ -14,7 +14,7 @@ const createTable = "CREATE TABLE IF NOT EXISTS people (ID INT PRIMARY KEY AUTO_
 
 connection.query(createTable);
 
-const sql = "INSERT IGNORE INTO people(name) values ('Rafael'), ('João'), ('Maria'), ('Marta')";
+const sql = "INSERT INTO people(name) values ('Rafael'), ('João'), ('Maria'), ('Marta')";
 connection.query(sql)
 
 const selectPeople = `SELECT name FROM people`
