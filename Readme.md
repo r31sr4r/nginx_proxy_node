@@ -2,9 +2,9 @@
 
 ## Passos:
 
-    - Clonar o repositório;
-    - Rodar o comando:
+- Clonar o repositório;
+- Rodar o comando:
 
-    ``` $ docker-compose up -d ```
+    ```$ docker-compose up -d```
 
-    - Acessar o endereço http://localhost:8081
+- Acessar o endereço http://localhost:8081
